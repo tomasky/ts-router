@@ -8,6 +8,7 @@
 
 ```
 $ npm install ts-router
+$ typings i dt~koa --save --global
 ```
 
 ts-router is supported in node v4+ with `--harmony` flag.
