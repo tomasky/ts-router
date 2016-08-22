@@ -202,7 +202,7 @@ class Router {
         };
     }
 
-    use<T extends Controller>(RouterClass: new (...args) => T) {
+    use<T extends Controller>(RouterClass: new (...args:any[]) => T) {
         let router = RouterClass.prototype;
         for (let key in router[Routes]) {
             let route = router[Routes][key];
