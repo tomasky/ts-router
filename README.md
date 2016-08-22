@@ -12,6 +12,18 @@ $ npm install ts-router
 
 ts-router is supported in node v4+ with `--harmony` flag.
 
+## Require 
+- tsconfg.json add :
+
+```json
+"compilerOptions":
+{
+"target": "ES6",
+"experimentalDecorators": true,
+"emitDecoratorMetadata": true
+} 
+```
+ 
 ## Introduction
 
 This project is developed in typescript, and usable in typescript. It serves as a routing middleware for koa@next.
